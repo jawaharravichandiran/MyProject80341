@@ -48,7 +48,7 @@ EditText TFaddress;
     public void onSearch(View view){
         EditText location_tf=(EditText) findViewById(R.id.TFadderss);
         String location = location_tf.getText().toString();
-        Toast.makeText(this,location,Toast.LENGTH_LONG).show();
+        Toast.makeText(this,location,Toast.LENGTH_SHORT).show();
         List<Address> addressList = null;
         Geocoder geocoder = new Geocoder(this);
         try {
